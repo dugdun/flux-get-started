@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Greetings human!"
+          value: "Hey Pinky are you thinking what I'm thinking?"
         livenessProbe:
           httpGet:
             path: /healthz
